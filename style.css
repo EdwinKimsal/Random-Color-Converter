@@ -1,0 +1,43 @@
+#bg{
+    top: 0;
+    left: 0;
+
+    height: 100%;
+    width: 100%;
+    position: absolute;
+
+    background-color: none;
+}
+
+#HUD{
+    top: 0;
+    left: 0;
+
+    height: 15%;
+    width: 100%;
+    position: absolute;
+
+    background-color: black;
+}
+
+#buttonBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#button{
+    border-radius: 1rem;
+    padding: .75rem;
+
+    border: .25rem white solid;
+    background-color: #000;
+    color: #fff;
+
+    font-size: 2rem;
+}
+
+#button:hover{
+    transform: scale(1.02);
+}
